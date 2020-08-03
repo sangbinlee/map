@@ -1,0 +1,31 @@
+{
+    "name": "map",
+    "version": "1.0.0",
+    "description": "OpenLayers",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "parcel index.html",
+        "build": "parcel build --public-url . index.html"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sangbinlee/map.git"
+    },
+    "keywords": [
+        "map",
+        "OpenLayers"
+    ],
+    "author": "sangbin lee",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/sangbinlee/map/issues"
+    },
+    "homepage": "https://github.com/sangbinlee/map#readme",
+    "dependencies": {
+        "ol": "^6.4.2"
+    },
+    "devDependencies": {
+        "parcel-bundler": "^1.12.4"
+    }
+}
